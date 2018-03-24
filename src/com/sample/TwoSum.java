@@ -3,7 +3,7 @@ package com.sample;
 import java.util.Arrays;
 
 
-class Solution {
+class TwoSum {
   public static int[] twoSum(int[] nums, int target) {
     if (nums.length < 1)
       return new int[]{-1, -1};
